@@ -9,7 +9,7 @@
 // Start or resume session, and create: $_SESSION[] array
 session_start(); 
 // include the class that handles database connections
-require "../../Prog01_CIS355/database.php";
+require "http://csis.svsu.edu/~mthozesk/Prog01_CIS355/database.php";
 
 if ( !empty($_POST)) { // if $_POST filled then process the form
 	// initialize $_POST variables
