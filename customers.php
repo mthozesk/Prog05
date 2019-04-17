@@ -1,11 +1,11 @@
 <?php
 
 session_start();
-if(!isset($_SESSION["tJHSQRuoNnWUwLRe"])){ // if "user" not set,
+/*if(!isset($_SESSION["tJHSQRuoNnWUwLRe"])){ // if "user" not set,
 	session_destroy();
 	header('Location: login.html');     // go to login page
 	exit();
-}
+}*/
 
 // include the class that handles database connections
 require "../../Prog01_CIS355/database.php";
