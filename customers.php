@@ -8,11 +8,11 @@ session_start();
 }*/
 
 // include the class that handles database connections
-require "../../Prog01_CIS355/database.php";
+require "http://csis.svsu.edu/~mthozesk/cis355wi19/temp/login.php";
 
 // include the class containing functions/methods for "customer" table
 // Note: this application uses "customer" table, not "cusotmers" table
-require "customers.class.php";
+require "http://csis.svsu.edu/~mthozesk/cis355wi19/temp/customers.class.php";
 $cust = new Customer();
  
 // set active record field values, if any 
